@@ -51,7 +51,18 @@
       .iconm{
         display: block;
       }
+      .buscard{
+        max-width: 25rem !important;
+        height: 100%;
+        margin-left: 1.5rem;
+        
+      }
+      ul{
+        text-align: center;
+        
+      }
       
+   
   }
   .carousel-caption {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -168,15 +179,62 @@ display: flex;
   text-decoration: none;
 }
 .buscard{
-  max-width: 80% !important;
+  max-width: 13rem ;
   height: 100%;
+  margin-left: 1.5rem;
+  
 }
 .heading a:hover{
   text-decoration: none;
 }
 .card-sec2{
   background-color: rgb(241, 250, 252);
+  margin-right: 0 !important;
 }
 .card-body{
   cursor: pointer;
+}
+.card-body:hover{
+  background-color: rgba(0, 81, 255, 0.082);
+}
+.wi{
+  padding: 0 !important;
+}
+
+.row{
+  margin-right: 0 !important;
+}
+ul{
+  padding: 0;
+  list-style-type: none;
+  line-height: 2rem;
+  font-size: 0.5rem;
+}
+.first{
+  
+}
+.first a{
+  text-decoration: none;
+  color: rgb(82, 82, 82);
+}
+.first a:hover{
+  color: rgb(255, 29, 29);
+}
+.footer-container{
+  border-bottom: 0.01rem solid rgb(92, 84, 84);
+}
+.buttonbot{
+  font-size: 0.7rem !important;
+}
+.soc:hover{
+  color: rgb(173, 40, 40) !important;
+}
+.cpyrt ul li{
+  display: inline;
+}
+.cpyrt a{
+  text-decoration: ;
+}
+.rights{
+  font-size: 0.4rem;
 }
